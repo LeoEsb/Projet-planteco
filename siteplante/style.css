@@ -1,0 +1,133 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family:'Asap', sans-serif;;
+}
+
+.masque {
+    display: none;
+  }
+/* === HEADER === */
+header{
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 1px 5px 0px black;
+    background-color: #DDDDDD;
+}
+
+/*h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #1dca7a;
+    font-size: 60px;
+    margin-top: 0;
+}*/
+
+/* === BODY === */
+    #contain{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+        background-color: #d6d4d4;
+    }
+    
+    .form-group{
+        text-align: center;
+    }
+    .container{
+        background-color: #d6d4d4;
+    }
+    /* === IMAGE_BLOCK === */
+
+            #contain_image{
+                width: 45%;
+            }
+            #contain_image img{
+                width: 70%;
+            }
+    /* === INFOS_BLOCK === */
+
+            #contain_infos{
+                width: 45%;
+            }
+            #contain_infos{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .info{
+                width: 230px;
+                height: 200px;
+                margin: 5px;
+                text-align: center;
+                border: 1px solid black;
+                border-radius: 10px;
+                box-shadow: 0px 1px 5px 0px black;
+                margin-bottom: 30px;
+            }
+            .info p{
+                font-size: 30px;
+                padding-top: 10px;
+            }
+            .info hr{
+                width: 80%;
+            }
+
+            /* === COLOR HR === */
+
+                    #color_pression{
+                        color: black;
+                    }
+                    #color_humidite_air{
+                        color: #6200ff;
+                    }
+                    #color_temperature{
+                        color: #ffa339;
+                    }
+                    #color_humidite_sol{
+                        color: #ff3b3b;   
+                    }
+                    #color_lumiere{
+                        color: #d2b500;
+                    }
+                    
+
+@media screen and (max-width:470px){
+    h1{
+        font-size: 40px;
+    }
+    header{
+        height: 70px;
+    }
+    #contain_image{
+        visibility: hidden;
+        display: none;
+    }
+    #contain_infos{
+        width: 80%;
+    }
+    .info{
+        width: 80%;
+        margin-bottom: 25px;
+    }
+    #contain{
+        display: flex;
+        justify-content: center;
+        margin-top: 90px;
+    }
+}
+@media screen and (min-width:471px) and (max-width:1024px){
+    #contain{
+        flex-direction: column;
+    }
+    #contain_image{
+        margin-bottom: 100px;
+    }
+    .info{
+        width: 50%;
+    }
+    #contain_infos{
+        width: 80%;
+    }
+}

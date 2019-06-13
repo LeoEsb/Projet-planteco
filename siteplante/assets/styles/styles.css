@@ -1,0 +1,82 @@
+/* === GENERAL === */
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family:'Asap', sans-serif;;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #1dca7a;
+    font-size: 60px;
+    margin-top: 0;
+}
+
+/* === HEADER === */
+header{
+    width: 100%;
+    box-shadow: 0px 1px 5px 0px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 10px;
+}
+
+
+/* === DASHBOARD HEADER === */
+
+/* === CONNEXION === */
+
+#titre_connexion{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+#connexion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#connexion input{
+    width: 400px;
+    height: 40px;
+    border: 2px solid  #e0e0e0;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+#connexion button{
+    width: 250px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 2px solid  #1dca7a;
+    color: #1dca7a;
+    background-color: #fff; 
+}
+
+#connexion button:hover{
+    color: #fff;
+    background-color: #1dca7a;
+}
